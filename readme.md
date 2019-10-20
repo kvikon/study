@@ -1,1 +1,1 @@
-start of tech!
+start of tech study!
