@@ -7,7 +7,7 @@
 > 3. 支持左右滑动，点击数字切换到对应日期
 > 4. 点击天数刷新列表
 
-<img src="/Users/kvikon/Documents/github/study/wechat/img/WX20191027-171310@2x.png" style="zoom:50%;" />
+<img src="../img/WX20191027-171310@2x.png" style="zoom:50%;" />
 
 ## 1. WXML页面展示
 
