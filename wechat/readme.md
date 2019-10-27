@@ -57,7 +57,7 @@
 | [app.json](https://developers.weixin.qq.com/miniprogram/dev/framework/config.html) | 是   | 小程序公共配置   |
 | [app.wxss](https://developers.weixin.qq.com/miniprogram/dev/framework/view/wxss.html) | 否   | 小程序公共样式表 |
 
-**app.js可以调用微信或者凡泰（第三方app）的用户信息接口，获取到用户信息，并保存到本地缓存中**
+**app.js可以调用微信或者第三方app的用户信息接口，获取到用户信息，并保存到本地缓存中**
 
 ```js
 //app.js
@@ -324,8 +324,6 @@ wx.request({
   method: "POST",
   data: {
     "params": JSON.stringify({
-      "mc": "workbench",
-      "tc": "queryScheTaskAll",
       "head": {},
       "username": 'admin', // 用户信息一般在app.js中调用微信用户信息接口，或者第三方app，如凡泰等获取
       "userid": 'admin', // 用户信息一般在app.js中调用微信用户信息接口，或者第三方app，如凡泰等获取
@@ -336,7 +334,7 @@ wx.request({
       }})
   },
   header: {
-    'content-type': 'application/x-www-form-urlencoded' // 注意此处不可以用application/json，否则aweb后端会拿不到参数
+    'content-type': 'application/x-www-form-urlencoded' // 注意此处不可以用application/json，否则web后端会拿不到参数
   },
   success(res) {
     console.log(res.data);
