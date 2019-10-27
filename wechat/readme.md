@@ -12,7 +12,7 @@
 
 ## 1. 官方教程
 
-> 建议频繁查阅官方教程：[官方教程]（https://developers.weixin.qq.com/miniprogram/dev/framework/?_blank） ，上面有所有小程序开发说明
+> 建议频繁查阅官方教程：[官方教程](https://developers.weixin.qq.com/miniprogram/dev/framework/?_blank) ，上面有所有小程序开发说明
 
 ![image-20191010194521445](./img/image-20191010194521445.png)
 
