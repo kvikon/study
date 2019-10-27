@@ -12,7 +12,7 @@
 
 ## 1. 官方教程
 
-> 建议频繁查阅官方教程：https://developers.weixin.qq.com/miniprogram/dev/framework/，上面有所有小程序开发说明
+> 建议频繁查阅官方教程：https://developers.weixin.qq.com/miniprogram/dev/framework/ ，上面有所有小程序开发说明
 
 ![image-20191010194521445](./img/image-20191010194521445.png)
 
@@ -20,7 +20,7 @@
 
 ## 2. 开发工具
 
-> 微信小程序有自己的开发工具，下载地址：https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html，本质是一个Chrome V8内核的浏览器。
+> 微信小程序有自己的开发工具，下载地址：https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html ，本质是一个Chrome V8内核的浏览器。
 
 ![image-20191010194639556](./img/image-20191010194639556.png)
 
@@ -192,7 +192,7 @@ App({
 
 ## 7. 页面组件
 
-> 微信小程序拥有丰富的组件，让开发者可以快速开发出样式美观，功能稳定的小程序，官网地址：https://developers.weixin.qq.com/miniprogram/dev/component/，此处挑选几个常用的组件进行讲解
+> 微信小程序拥有丰富的组件，让开发者可以快速开发出样式美观，功能稳定的小程序，官网地址：https://developers.weixin.qq.com/miniprogram/dev/component/ ，此处挑选几个常用的组件进行讲解
 
 ### scroll-view
 
