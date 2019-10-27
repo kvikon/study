@@ -41,7 +41,90 @@
 
 ```
 
-##2. JS逻辑实现
+## 2.XSS样式
+
+```css
+/**index.wxss**/
+.categories {
+  height: 180rpx;
+  border-bottom: 1px solid #eee;
+  white-space: nowrap;
+  display: flex;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  color: transparent;
+}
+
+.categories .category {
+  text-align: center;
+  display: inline-block;
+  width: 110rpx;
+}
+
+.categories .calendar-date.active {
+  background-color: #666;
+  color: #fff;
+  border-radius: 50%;
+}
+
+
+.categories .category:last-child{
+  border: 0
+}
+
+.calendar-date {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  margin: 12rpx auto;
+}
+
+.calendar-day {
+  background: #126ac6;
+  color: #fff;
+  font-size: 30rpx;
+  padding: 12rpx 0;
+}
+
+.calendar-list {
+  height: 1220rpx;
+}
+
+.list {
+  padding: 30rpx;
+  overflow: visible;
+}
+
+.list-item {
+  height: 150rpx;
+  margin: 0 10rpx 20rpx 10rpx;
+  padding: 20rpx;
+  border: 1px solid #e5e5e5;
+  box-shadow: #999 1px 2px 3px;
+  border-radius: 20rpx;
+}
+
+.list-item-text {
+  height: 100rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.list-item-sub {
+  color: #666;
+  display: flex;
+}
+
+.list-item-time,
+list-item-address {
+  width: 80%;
+}
+```
+
+## 3. JS逻辑实现
 
 计算当前月的总天数
 
@@ -101,7 +184,7 @@ getWeek: function (year, month) {
 }
 ```
 
-###3. 完整JS代码
+## 4. 完整JS代码
 
 ```js
 // index.js
