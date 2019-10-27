@@ -6,7 +6,7 @@
 >
 > 本教程只针对测试号进行快速讲解，如果需要正式账号开发，请移步官方教程。
 >
-> ![image-20191010180522891](/Users/kvikon/Library/Application Support/typora-user-images/image-20191010180522891.png)
+> ![image-20191010180522891](./img/image-20191010180522891.png)
 
 
 
@@ -14,7 +14,7 @@
 
 > 建议频繁查阅官方教程：https://developers.weixin.qq.com/miniprogram/dev/framework/，上面有所有小程序开发说明
 
-![image-20191010194521445](/Users/kvikon/Library/Application Support/typora-user-images/image-20191010194521445.png)
+![image-20191010194521445](./img/image-20191010194521445.png)
 
 
 
@@ -22,7 +22,7 @@
 
 > 微信小程序有自己的开发工具，下载地址：https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html，本质是一个Chrome V8内核的浏览器。
 
-![image-20191010194639556](/Users/kvikon/Library/Application Support/typora-user-images/image-20191010194639556.png)
+![image-20191010194639556](./img/image-20191010194639556.png)
 
 
 
@@ -49,7 +49,7 @@
 >
 > 官网地址：https://developers.weixin.qq.com/miniprogram/dev/framework/structure.html
 >
-> ![image-20191010195508234](/Users/kvikon/Library/Application Support/typora-user-images/image-20191010195508234.png)
+> ![image-20191010195508234](./img/image-20191010195508234.png)
 
 | 文件                                                         | 必需 | 作用             |
 | :----------------------------------------------------------- | :--- | :--------------- |
@@ -103,7 +103,7 @@ App({
 
 > 一个小程序页面由四个文件组成，分别是：
 >
-> ![image-20191010195531586](/Users/kvikon/Library/Application Support/typora-user-images/image-20191010195531586.png)
+> ![image-20191010195531586](./img/image-20191010195531586.png)
 
 | 文件类型                                                     | 必需 | 作用       |
 | :----------------------------------------------------------- | :--- | :--------- |
@@ -162,11 +162,11 @@ App({
 
 * 支持配置全局顶部导航栏样式
 
-  ![image-20191010200330430](/Users/kvikon/Library/Application Support/typora-user-images/image-20191010200330430.png)
+  ![image-20191010200330430](./img/image-20191010200330430.png)
 
 * 支持配置底部菜单栏
 
-  ![image-20191010200344111](/Users/kvikon/Library/Application Support/typora-user-images/image-20191010200344111.png)
+  ![image-20191010200344111](./img/image-20191010200344111.png)
 
 
 
@@ -207,7 +207,7 @@ App({
 | scroll-top  | number/string |        | 否   | 设置竖向滚动条位置 | [1.0.0](https://developers.weixin.qq.com/miniprogram/dev/framework/compatibility.html) |
 | scroll-left | number/string |        | 否   | 设置横向滚动条位置 | [1.0.0](https://developers.weixin.qq.com/miniprogram/dev/framework/compatibility.html) |
 
-![image-20191010203839008](/Users/kvikon/Library/Application Support/typora-user-images/image-20191010203839008.png)
+![image-20191010203839008](./img/image-20191010203839008.png)
 
 ### swiper
 
@@ -224,7 +224,7 @@ App({
 | interval               | number  | 5000              | 否   | 自动切换时间间隔     | [1.0.0](https://developers.weixin.qq.com/miniprogram/dev/framework/compatibility.html) |
 | duration               | number  | 500               | 否   | 滑动动画时长         | [1.0.0](https://developers.weixin.qq.com/miniprogram/dev/framework/compatibility.html) |
 
-![image-20191010204011802](/Users/kvikon/Library/Application Support/typora-user-images/image-20191010204011802.png)
+![image-20191010204011802](./img/image-20191010204011802.png)
 
 ### form表单
 
@@ -241,7 +241,7 @@ App({
 | bindsubmit            | eventhandle |        | 否   | 携带 form 中的数据触发 submit 事件，event.detail = {value : {'name': 'value'} , formId: ''} | [1.0.0](https://developers.weixin.qq.com/miniprogram/dev/framework/compatibility.html) |
 | bindreset             | eventhandle |        | 否   | 表单重置时会触发 reset 事件                                  | [1.0.0](https://developers.weixin.qq.com/miniprogram/dev/framework/compatibility.html) |
 
-![image-20191010204248083](/Users/kvikon/Library/Application Support/typora-user-images/image-20191010204248083.png)
+![image-20191010204248083](./img/image-20191010204248083.png)
 
 ### picker
 
@@ -265,7 +265,7 @@ App({
 | date          | 日期选择器   |          |
 | region        | 省市区选择器 |          |
 
-![image-20191010204500830](/Users/kvikon/Library/Application Support/typora-user-images/image-20191010204500830.png)
+![image-20191010204500830](./img/image-20191010204500830.png)
 
 ## 8. 页面跳转
 
@@ -372,7 +372,7 @@ public void doFilter(ServletRequest req, ServletResponse res, FilterChain chain)
 
 需要注意的是，微信小程序开发工具默认是禁止本地和未授权url的，需要在小工具中设置不校验合法域名，如下：
 
-![image-20191011162548046](/Users/kvikon/Library/Application Support/typora-user-images/image-20191011162548046.png)
+![image-20191011162548046](./img/image-20191011162548046.png)
 
 设置不校验合法域名之后，在手机上测试的时候，如果请求的数据接口url是本地或者内网的话，是无法获取数据的。即设置不校验合法域名在手机上是无效的，只能在开发工具中使用。
 
