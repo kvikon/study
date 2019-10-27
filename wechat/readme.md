@@ -12,7 +12,7 @@
 
 ## 1. 官方教程
 
-> 建议频繁查阅官方教程：https://developers.weixin.qq.com/miniprogram/dev/framework/ ，上面有所有小程序开发说明
+> 建议频繁查阅官方教程：https://developers.weixin.qq.com/miniprogram/dev/framework/?_blank ，上面有所有小程序开发说明
 
 ![image-20191010194521445](./img/image-20191010194521445.png)
 
@@ -20,7 +20,7 @@
 
 ## 2. 开发工具
 
-> 微信小程序有自己的开发工具，下载地址：https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html ，本质是一个Chrome V8内核的浏览器。
+> 微信小程序有自己的开发工具，下载地址：https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html?_blank ，本质是一个Chrome V8内核的浏览器。
 
 ![image-20191010194639556](./img/image-20191010194639556.png)
 
@@ -28,7 +28,7 @@
 
 ## 3. 小程序代码构成
 
-> 官网地址：https://developers.weixin.qq.com/miniprogram/dev/framework/quickstart/code.html
+> 官网地址：https://developers.weixin.qq.com/miniprogram/dev/framework/quickstart/code.html?_blank
 
 1. `.json` 后缀的 `JSON` 配置文件
    * JSON格式配置
@@ -47,15 +47,15 @@
 
 > 学习任何框架，我们一般先会接触到其目录结构
 >
-> 官网地址：https://developers.weixin.qq.com/miniprogram/dev/framework/structure.html
+> 官网地址：https://developers.weixin.qq.com/miniprogram/dev/framework/structure.html?_blank
 >
 > ![image-20191010195508234](./img/image-20191010195508234.png)
 
 | 文件                                                         | 必需 | 作用             |
 | :----------------------------------------------------------- | :--- | :--------------- |
-| [app.js](https://developers.weixin.qq.com/miniprogram/dev/framework/app-service/app.html) | 是   | 小程序逻辑       |
-| [app.json](https://developers.weixin.qq.com/miniprogram/dev/framework/config.html) | 是   | 小程序公共配置   |
-| [app.wxss](https://developers.weixin.qq.com/miniprogram/dev/framework/view/wxss.html) | 否   | 小程序公共样式表 |
+| [app.js](https://developers.weixin.qq.com/miniprogram/dev/framework/app-service/app.html?_blank) | 是   | 小程序逻辑       |
+| [app.json](https://developers.weixin.qq.com/miniprogram/dev/framework/config.html?_blank) | 是   | 小程序公共配置   |
+| [app.wxss](https://developers.weixin.qq.com/miniprogram/dev/framework/view/wxss.html?_blank) | 否   | 小程序公共样式表 |
 
 **app.js可以调用微信或者第三方app的用户信息接口，获取到用户信息，并保存到本地缓存中**
 
@@ -107,10 +107,10 @@ App({
 
 | 文件类型                                                     | 必需 | 作用       |
 | :----------------------------------------------------------- | :--- | :--------- |
-| [js](https://developers.weixin.qq.com/miniprogram/dev/framework/app-service/page.html) | 是   | 页面逻辑   |
+| [js](https://developers.weixin.qq.com/miniprogram/dev/framework/app-service/page.html?_blank) | 是   | 页面逻辑   |
 | [wxml](https://developers.weixin.qq.com/miniprogram/dev/framework/view/wxml/) | 是   | 页面结构   |
-| [json](https://developers.weixin.qq.com/miniprogram/dev/framework/config.html#页面配置) | 否   | 页面配置   |
-| [wxss](https://developers.weixin.qq.com/miniprogram/dev/framework/view/wxss.html) | 否   | 页面样式表 |
+| [json](https://developers.weixin.qq.com/miniprogram/dev/framework/config.html?_blank#页面配置) | 否   | 页面配置   |
+| [wxss](https://developers.weixin.qq.com/miniprogram/dev/framework/view/wxss.html?_blank) | 否   | 页面样式表 |
 
 
 
@@ -118,7 +118,7 @@ App({
 
 > 小程序根目录下的 `app.json` 是当前小程序的全局配置，包括了小程序的所有页面路径、界面表现、网络超时时间、底部 tab 等
 >
-> 官网地址：https://developers.weixin.qq.com/miniprogram/dev/reference/configuration/app.html
+> 官网地址：https://developers.weixin.qq.com/miniprogram/dev/reference/configuration/app.html?_blank
 
 ```js
 {
@@ -172,7 +172,7 @@ App({
 
 ## 6. 页面配置
 
-> 官网地址：https://developers.weixin.qq.com/miniprogram/dev/reference/configuration/page.html
+> 官网地址：https://developers.weixin.qq.com/miniprogram/dev/reference/configuration/page.html?_blank
 >
 > 以下是部分配置例子：
 
@@ -196,64 +196,64 @@ App({
 
 ### scroll-view
 
->  官网地址：https://developers.weixin.qq.com/miniprogram/dev/component/scroll-view.html
+>  官网地址：https://developers.weixin.qq.com/miniprogram/dev/component/scroll-view.html?_blank
 >
-> 可滚动视图区域。使用竖向滚动时，需要给[scroll-view](https://developers.weixin.qq.com/miniprogram/dev/component/scroll-view.html)一个固定高度，通过 WXSS 设置 height。组件属性的长度单位默认为px，[2.4.0](https://developers.weixin.qq.com/miniprogram/dev/framework/compatibility.html)起支持传入单位(rpx/px)。以下是常用属性，详细属性请到官网查阅。
+> 可滚动视图区域。使用竖向滚动时，需要给[scroll-view](https://developers.weixin.qq.com/miniprogram/dev/component/scroll-view.html?_blank)一个固定高度，通过 WXSS 设置 height。组件属性的长度单位默认为px，[2.4.0](https://developers.weixin.qq.com/miniprogram/dev/framework/compatibility.html?_blank)起支持传入单位(rpx/px)。以下是常用属性，详细属性请到官网查阅。
 
 | 属性        | 类型          | 默认值 | 必填 | 说明               | 最低版本                                                     |
 | :---------- | :------------ | :----- | :--- | :----------------- | :----------------------------------------------------------- |
-| scroll-x    | boolean       | false  | 否   | 允许横向滚动       | [1.0.0](https://developers.weixin.qq.com/miniprogram/dev/framework/compatibility.html) |
-| scroll-y    | boolean       | false  | 否   | 允许纵向滚动       | [1.0.0](https://developers.weixin.qq.com/miniprogram/dev/framework/compatibility.html) |
-| scroll-top  | number/string |        | 否   | 设置竖向滚动条位置 | [1.0.0](https://developers.weixin.qq.com/miniprogram/dev/framework/compatibility.html) |
-| scroll-left | number/string |        | 否   | 设置横向滚动条位置 | [1.0.0](https://developers.weixin.qq.com/miniprogram/dev/framework/compatibility.html) |
+| scroll-x    | boolean       | false  | 否   | 允许横向滚动       | [1.0.0](https://developers.weixin.qq.com/miniprogram/dev/framework/compatibility.html?_blank) |
+| scroll-y    | boolean       | false  | 否   | 允许纵向滚动       | [1.0.0](https://developers.weixin.qq.com/miniprogram/dev/framework/compatibility.html?_blank) |
+| scroll-top  | number/string |        | 否   | 设置竖向滚动条位置 | [1.0.0](https://developers.weixin.qq.com/miniprogram/dev/framework/compatibility.html?_blank) |
+| scroll-left | number/string |        | 否   | 设置横向滚动条位置 | [1.0.0](https://developers.weixin.qq.com/miniprogram/dev/framework/compatibility.html?_blank) |
 
 ![image-20191010203839008](./img/image-20191010203839008.png)
 
 ### swiper
 
-> 官网地址：https://developers.weixin.qq.com/miniprogram/dev/component/swiper.html
+> 官网地址：https://developers.weixin.qq.com/miniprogram/dev/component/swiper.html?_blank
 >
-> 滑块视图容器。其中只可放置[swiper-item](https://developers.weixin.qq.com/miniprogram/dev/component/swiper-item.html)组件，否则会导致未定义的行为。以下是常用属性，详细属性请到官网查阅。
+> 滑块视图容器。其中只可放置[swiper-item](https://developers.weixin.qq.com/miniprogram/dev/component/swiper-item.html?_blank)组件，否则会导致未定义的行为。以下是常用属性，详细属性请到官网查阅。
 
 | 属性                   | 类型    | 默认值            | 必填 | 说明                 | 最低版本                                                     |
 | :--------------------- | :------ | :---------------- | :--- | :------------------- | :----------------------------------------------------------- |
-| indicator-dots         | boolean | false             | 否   | 是否显示面板指示点   | [1.0.0](https://developers.weixin.qq.com/miniprogram/dev/framework/compatibility.html) |
-| indicator-color        | color   | rgba(0, 0, 0, .3) | 否   | 指示点颜色           | [1.1.0](https://developers.weixin.qq.com/miniprogram/dev/framework/compatibility.html) |
-| indicator-active-color | color   | #000000           | 否   | 当前选中的指示点颜色 | [1.1.0](https://developers.weixin.qq.com/miniprogram/dev/framework/compatibility.html) |
-| autoplay               | boolean | false             | 否   | 是否自动切换         | [1.0.0](https://developers.weixin.qq.com/miniprogram/dev/framework/compatibility.html) |
-| interval               | number  | 5000              | 否   | 自动切换时间间隔     | [1.0.0](https://developers.weixin.qq.com/miniprogram/dev/framework/compatibility.html) |
-| duration               | number  | 500               | 否   | 滑动动画时长         | [1.0.0](https://developers.weixin.qq.com/miniprogram/dev/framework/compatibility.html) |
+| indicator-dots         | boolean | false             | 否   | 是否显示面板指示点   | [1.0.0](https://developers.weixin.qq.com/miniprogram/dev/framework/compatibility.html?_blank) |
+| indicator-color        | color   | rgba(0, 0, 0, .3) | 否   | 指示点颜色           | [1.1.0](https://developers.weixin.qq.com/miniprogram/dev/framework/compatibility.html?_blank) |
+| indicator-active-color | color   | #000000           | 否   | 当前选中的指示点颜色 | [1.1.0](https://developers.weixin.qq.com/miniprogram/dev/framework/compatibility.html?_blank) |
+| autoplay               | boolean | false             | 否   | 是否自动切换         | [1.0.0](https://developers.weixin.qq.com/miniprogram/dev/framework/compatibility.html?_blank) |
+| interval               | number  | 5000              | 否   | 自动切换时间间隔     | [1.0.0](https://developers.weixin.qq.com/miniprogram/dev/framework/compatibility.html?_blank) |
+| duration               | number  | 500               | 否   | 滑动动画时长         | [1.0.0](https://developers.weixin.qq.com/miniprogram/dev/framework/compatibility.html?_blank) |
 
 ![image-20191010204011802](./img/image-20191010204011802.png)
 
 ### form表单
 
-> 官网地址： https://developers.weixin.qq.com/miniprogram/dev/component/form.html
+> 官网地址： https://developers.weixin.qq.com/miniprogram/dev/component/form.html?_blank
 >
-> 表单。将组件内的用户输入的[switch](https://developers.weixin.qq.com/miniprogram/dev/component/switch.html) [input](https://developers.weixin.qq.com/miniprogram/dev/component/input.html) [checkbox](https://developers.weixin.qq.com/miniprogram/dev/component/checkbox.html) [slider](https://developers.weixin.qq.com/miniprogram/dev/component/slider.html) [radio](https://developers.weixin.qq.com/miniprogram/dev/component/radio.html) [picker](https://developers.weixin.qq.com/miniprogram/dev/component/picker.html) 提交。
+> 表单。将组件内的用户输入的[switch](https://developers.weixin.qq.com/miniprogram/dev/component/switch.html?_blank) [input](https://developers.weixin.qq.com/miniprogram/dev/component/input.html?_blank) [checkbox](https://developers.weixin.qq.com/miniprogram/dev/component/checkbox.html?_blank) [slider](https://developers.weixin.qq.com/miniprogram/dev/component/slider.html?_blank) [radio](https://developers.weixin.qq.com/miniprogram/dev/component/radio.html?_blank) [picker](https://developers.weixin.qq.com/miniprogram/dev/component/picker.html?_blank) 提交。
 >
-> 当点击 [form](https://developers.weixin.qq.com/miniprogram/dev/component/form.html) 表单中 form-type 为 submit 的 [button](https://developers.weixin.qq.com/miniprogram/dev/component/button.html) 组件时，会将表单组件中的 value 值进行提交，需要在表单组件中加上 name 来作为 key。
+> 当点击 [form](https://developers.weixin.qq.com/miniprogram/dev/component/form.html?_blank) 表单中 form-type 为 submit 的 [button](https://developers.weixin.qq.com/miniprogram/dev/component/button.html?_blank) 组件时，会将表单组件中的 value 值进行提交，需要在表单组件中加上 name 来作为 key。
 
 | 属性                  | 类型        | 默认值 | 必填 | 说明                                                         | 最低版本                                                     |
 | :-------------------- | :---------- | :----- | :--- | :----------------------------------------------------------- | :----------------------------------------------------------- |
-| report-submit         | boolean     | false  | 否   | 是否返回 formId 用于发送[模板消息](https://developers.weixin.qq.com/miniprogram/dev/framework/open-ability/template-message.html) | [1.0.0](https://developers.weixin.qq.com/miniprogram/dev/framework/compatibility.html) |
-| report-submit-timeout | number      | 0      | 否   | 等待一段时间（毫秒数）以确认 formId 是否生效。如果未指定这个参数，formId 有很小的概率是无效的（如遇到网络失败的情况）。指定这个参数将可以检测 formId 是否有效，以这个参数的时间作为这项检测的超时时间。如果失败，将返回 requestFormId:fail 开头的 formId | [2.6.2](https://developers.weixin.qq.com/miniprogram/dev/framework/compatibility.html) |
-| bindsubmit            | eventhandle |        | 否   | 携带 form 中的数据触发 submit 事件，event.detail = {value : {'name': 'value'} , formId: ''} | [1.0.0](https://developers.weixin.qq.com/miniprogram/dev/framework/compatibility.html) |
-| bindreset             | eventhandle |        | 否   | 表单重置时会触发 reset 事件                                  | [1.0.0](https://developers.weixin.qq.com/miniprogram/dev/framework/compatibility.html) |
+| report-submit         | boolean     | false  | 否   | 是否返回 formId 用于发送[模板消息](https://developers.weixin.qq.com/miniprogram/dev/framework/open-ability/template-message.html?_blank) | [1.0.0](https://developers.weixin.qq.com/miniprogram/dev/framework/compatibility.html?_blank) |
+| report-submit-timeout | number      | 0      | 否   | 等待一段时间（毫秒数）以确认 formId 是否生效。如果未指定这个参数，formId 有很小的概率是无效的（如遇到网络失败的情况）。指定这个参数将可以检测 formId 是否有效，以这个参数的时间作为这项检测的超时时间。如果失败，将返回 requestFormId:fail 开头的 formId | [2.6.2](https://developers.weixin.qq.com/miniprogram/dev/framework/compatibility.html?_blank) |
+| bindsubmit            | eventhandle |        | 否   | 携带 form 中的数据触发 submit 事件，event.detail = {value : {'name': 'value'} , formId: ''} | [1.0.0](https://developers.weixin.qq.com/miniprogram/dev/framework/compatibility.html?_blank) |
+| bindreset             | eventhandle |        | 否   | 表单重置时会触发 reset 事件                                  | [1.0.0](https://developers.weixin.qq.com/miniprogram/dev/framework/compatibility.html?_blank) |
 
 ![image-20191010204248083](./img/image-20191010204248083.png)
 
 ### picker
 
-> 官网地址：https://developers.weixin.qq.com/miniprogram/dev/component/picker.html
+> 官网地址：https://developers.weixin.qq.com/miniprogram/dev/component/picker.html?_blank
 >
 > 从底部弹起的滚动选择器。
 
 | 属性       | 类型        | 默认值   | 必填 | 说明           | 最低版本                                                     |
 | :--------- | :---------- | :------- | :--- | :------------- | :----------------------------------------------------------- |
-| mode       | string      | selector | 否   | 选择器类型     | [1.0.0](https://developers.weixin.qq.com/miniprogram/dev/framework/compatibility.html) |
-| disabled   | boolean     | false    | 否   | 是否禁用       | [1.0.0](https://developers.weixin.qq.com/miniprogram/dev/framework/compatibility.html) |
-| bindcancel | eventhandle |          | 否   | 取消选择时触发 | [1.9.90](https://developers.weixin.qq.com/miniprogram/dev/framework/compatibility.html) |
+| mode       | string      | selector | 否   | 选择器类型     | [1.0.0](https://developers.weixin.qq.com/miniprogram/dev/framework/compatibility.html?_blank) |
+| disabled   | boolean     | false    | 否   | 是否禁用       | [1.0.0](https://developers.weixin.qq.com/miniprogram/dev/framework/compatibility.html?_blank) |
+| bindcancel | eventhandle |          | 否   | 取消选择时触发 | [1.9.90](https://developers.weixin.qq.com/miniprogram/dev/framework/compatibility.html?_blank) |
 
 **mode 的合法值**
 
@@ -269,15 +269,15 @@ App({
 
 ## 8. 页面跳转
 
-> 官网地址：https://developers.weixin.qq.com/miniprogram/dev/framework/app-service/route.html
+> 官网地址：https://developers.weixin.qq.com/miniprogram/dev/framework/app-service/route.html?_blank
 >
 > 在小程序中所有页面的路由全部由框架进行管理。
 
 ###wx.navigateTo(Object object)，跳转到非菜单页面
 
-> 官网地址：https://developers.weixin.qq.com/miniprogram/dev/api/route/wx.navigateTo.html
+> 官网地址：https://developers.weixin.qq.com/miniprogram/dev/api/route/wx.navigateTo.html?_blank
 >
-> 保留当前页面，跳转到应用内的某个页面。但是不能跳到 tabbar 页面。使用 [wx.navigateBack](https://developers.weixin.qq.com/miniprogram/dev/api/route/wx.navigateBack.html) 可以返回到原页面。小程序中页面栈最多十层
+> 保留当前页面，跳转到应用内的某个页面。但是不能跳到 tabbar 页面。使用 [wx.navigateBack](https://developers.weixin.qq.com/miniprogram/dev/api/route/wx.navigateBack.html?_blank) 可以返回到原页面。小程序中页面栈最多十层
 
 ```js
 wx.navigateTo({
@@ -300,7 +300,7 @@ wx.navigateTo({
 
 ###wx.switchTab(Object object)，跳转到菜单页面
 
-> 官网地址：https://developers.weixin.qq.com/miniprogram/dev/api/route/wx.switchTab.html
+> 官网地址：https://developers.weixin.qq.com/miniprogram/dev/api/route/wx.switchTab.html?_blank
 >
 > 跳转到 tabBar 页面，并关闭其他所有非 tabBar 页面
 
@@ -314,9 +314,9 @@ wx.switchTab({
 
 ## 9. 数据请求
 
-> 官网地址：https://developers.weixin.qq.com/miniprogram/dev/api/network/request/wx.request.html
+> 官网地址：https://developers.weixin.qq.com/miniprogram/dev/api/network/request/wx.request.html?_blank
 >
-> 发起 HTTPS 网络请求。使用前请注意阅读[相关说明](https://developers.weixin.qq.com/miniprogram/dev/framework/ability/network.html)。
+> 发起 HTTPS 网络请求。使用前请注意阅读[相关说明](https://developers.weixin.qq.com/miniprogram/dev/framework/ability/network.html?_blank)。
 
 ```js
 wx.request({
@@ -383,7 +383,7 @@ public void doFilter(ServletRequest req, ServletResponse res, FilterChain chain)
 * 组件：https://developers.weixin.qq.com/miniprogram/dev/component/
 * API： https://developers.weixin.qq.com/miniprogram/dev/api/
 * 服务端：https://developers.weixin.qq.com/miniprogram/dev/api-backend/
-* 工具：https://developers.weixin.qq.com/miniprogram/dev/devtools/devtools.html
-* 云开发：https://developers.weixin.qq.com/miniprogram/dev/wxcloud/basis/getting-started.html
+* 工具：https://developers.weixin.qq.com/miniprogram/dev/devtools/devtools.html?_blank
+* 云开发：https://developers.weixin.qq.com/miniprogram/dev/wxcloud/basis/getting-started.html?_blank
 * 扩展能力：https://developers.weixin.qq.com/miniprogram/dev/extended/weui/
 * 更新日志：https://developers.weixin.qq.com/miniprogram/dev/framework/release/
